@@ -16,7 +16,6 @@ Installation:
   GRUB_THEME="/boot/grub/themes/Dota/theme.txt"
   GRUB_DISABLE_OS_PROBER="false"
 #+end_src
-[[file:./Screenshots/Grub.jpg]]
 
 **** grub customizer
 #+begin_src bash
