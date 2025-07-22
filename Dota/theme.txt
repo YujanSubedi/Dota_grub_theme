@@ -1,0 +1,38 @@
+title-text: ""
+desktop-image: "background.jpg"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  top = 45%
+  left = 10%
+  width = 25%
+  height = 35%
+  item_color = "#99a2b7"
+  selected_item_color = "#ffffff"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 20
+  item_height = 40
+  item_padding = 2
+  item_spacing = 30
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ image {
+  top = 32%
+  left = 8%
+  file = "Choose.png"
+}
+
++ label {
+  top = 80%
+  left = 15%
+  align = "center"
+  id = "__timeout__"
+  text = "Autostart in %d seconds"
+  color = "#adb6d4"
+}
